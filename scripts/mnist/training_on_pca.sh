@@ -1,0 +1,1 @@
+python expt_mnist/training_on_pca.py --device gpu --n-ally 1 --n-advr-1 10 --n-advr-2 1 --dim 331 --hidden-dim 1024 --leaky 0 --test-size 0.3 --batch-size 16384 --n-epochs 1001 --shuffle 0 --lr-ally 0.0001 --lr-advr-1 0.0001 --lr-advr-2 0.0001 --expt mnist --pca-ckpt checkpoints/mnist/pca_basic_sklearn_model_01_30_2020_05_21_11_dim_331.pkl

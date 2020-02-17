@@ -1,0 +1,1 @@
+python expt_mnist/comparison.py

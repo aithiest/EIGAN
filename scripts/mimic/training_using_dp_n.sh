@@ -1,0 +1,1 @@
+python expt_mimic/training_using_dp.py --device gpu --n-ally 1 --n-advr-1 1 --n-advr-2 1 --dim 168 --hidden-dim 512 --leaky 0 --epsilon 0.1 --test-size 0.3 --batch-size 16384 --n-epochs 1001 --shuffle 1 --lr-ally 0.0001 --lr-advr-1 0.0001 --lr-advr-2 0.0001 --expt mimic

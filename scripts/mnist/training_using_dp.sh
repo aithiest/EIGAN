@@ -1,0 +1,1 @@
+python expt_mnist/training_using_dp.py --device gpu --n-ally 1 --n-advr-1 10 --n-advr-2 1 --dim 784 --hidden-dim 2048 --leaky 0 --epsilon 100 --test-size 0.3 --batch-size 16384 --n-epochs 1001 --shuffle 1 --lr-ally 0.0001 --lr-advr-1 0.0001 --lr-advr-2 0.0001 --expt mnist
