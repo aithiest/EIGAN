@@ -5,10 +5,11 @@
 ### To build the docker image
 - replace `gpu` with `cpu` in docker-dl-setup/docker-compose.yml in case the system has no gpu
 - script to build the docker image
-`shell
+
+```shell
 cd docker-dl-setup
 docker-compose build
-`
+```
 
 ### To run the docker container
 `shell
