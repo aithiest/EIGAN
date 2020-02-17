@@ -1,0 +1,14 @@
+beautifulsoup4
+gensim
+nltk
+networkx
+plotly
+psycopg2-binary
+PyMySql
+seaborn
+sqlalchemy
+torchsummary
+tqdm
+wordcloud
+xgboost
+xlrd

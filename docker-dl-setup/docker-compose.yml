@@ -1,0 +1,12 @@
+version: "3.4"
+services:
+  devel:
+    build: gpu
+    image: dev-py36
+    env_file:
+      - .env
+    ports:
+      - "8888:8888"
+      - "6006:6006"
+    working_dir: /WorkSpace
+    entrypoint: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser
