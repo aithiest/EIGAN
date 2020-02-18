@@ -29,8 +29,6 @@ def main(expt, model):
     gan_d_1024 = pkl.load(open('checkpoints/titanic/eigan_training_history_01_25_2020_22_36_17_F_device_cuda_dim_1024_hidden_2048_batch_1024_epochs_1001_lrencd_1e-05_lrally_1e-05_tr_-0.1834_val_0.6484.pkl', 'rb'))
     gan_d_2048 = pkl.load(open('checkpoints/titanic/eigan_training_history_01_25_2020_22_40_32_F_device_cuda_dim_2048_hidden_4086_batch_1024_epochs_1001_lrencd_1e-05_lrally_1e-05_tr_-0.1826_val_0.6424.pkl', 'rb'))
 
-    # print(pca_1.keys(), pca_2.keys(), auto_1.keys(), auto_2.keys(), dp_1.keys(), gan_1.keys())
-    # return
     plt.figure()
     fig = plt.figure(figsize=(15,5))
     ax3 = fig.add_subplot(131)
