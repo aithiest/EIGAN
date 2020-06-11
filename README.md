@@ -1,6 +1,8 @@
-**NOTE: ACCOMPANYING DATA (MODELS AND CHECKPOINTS) CAN BE DOWNLOADED FROM THE [DRIVE](https://drive.google.com/drive/folders/1K8j1J5B6SNB3zmnmHgVidQnbLGUUTFbo?usp=sharing)**
+**NOTE: ACCOMPANYING DATA CAN BE DOWNLOADED FROM THE [DRIVE](https://drive.google.com/drive/folders/1K8j1J5B6SNB3zmnmHgVidQnbLGUUTFbo?usp=sharing).**
 
-**Datasets have to be downloaded individually as per regulations and copyrights.**
+- **Datasets have to be downloaded individually as per regulations and copyrights.**
+- Drive contains the model checkpoints, training histories, and corresponding plots.
+- Data is in the same directory structure as required by project (paste in corresponding folders).
 
 # EIGAN
 
