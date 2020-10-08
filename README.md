@@ -1,4 +1,4 @@
-**NOTE: ACCOMPANYING DATA CAN BE DOWNLOADED FROM THE [DRIVE](https://drive.google.com/drive/folders/1K8j1J5B6SNB3zmnmHgVidQnbLGUUTFbo?usp=sharing).**
+**NOTE: ACCOMPANYING DATA CAN BE DOWNLOADED FROM THE [DRIVE](https://drive.google.com/file/d/1h1brXcywHgxCEFKzjc0yu6WQMr8IRUvz/view?usp=sharing).**
 
 - **Datasets have to be downloaded individually as per regulations and copyrights.**
 - Drive contains the model checkpoints, training histories, and corresponding plots.
@@ -41,6 +41,12 @@ docker exec -it eigan_devel bash
 
 ```shell
 sh scipts/<mimic/mnist/titanic>/<script-name>.sh
+```
+
+## Source folder executions
+```shell
+cd src
+sh sh/<script-name>.sh <expt-name>
 ```
 
 ## Comparison
