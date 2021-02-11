@@ -34,6 +34,12 @@ docker-compose build
 docker exec -it eigan_devel bash
 ```
 
+## Prior works (Baselines)
+Checkpoints of prior works baselines:
+- [BertranAIOI](https://github.com/aithiest/EIGAN/tree/master/baselines/BertranAIOI) [[paper]](http://proceedings.mlr.press/v97/bertran19a.html)
+- [SadeghiARL](https://github.com/aithiest/EIGAN/tree/master/baselines/SadeghiARL) [[paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w1/Sadeghi_Imparting_Fairness_to_Pre-Trained_Biased_Representations_CVPRW_2020_paper.html)
+
+
 ## Training
 - all scripts are run from `*.sh` files in `scripts` folder
 - change the hyperparameters, as in example scripts
