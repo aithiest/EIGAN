@@ -36,8 +36,8 @@ docker exec -it eigan_devel bash
 
 ## Prior works (Baselines)
 Checkpoints of prior works baselines:
-- [BertranAIOI](https://github.com/aithiest/EIGAN/tree/master/baselines/BertranAIOI) [[paper]](http://proceedings.mlr.press/v97/bertran19a.html)
-- [SadeghiARL](https://github.com/aithiest/EIGAN/tree/master/baselines/SadeghiARL) [[paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w1/Sadeghi_Imparting_Fairness_to_Pre-Trained_Biased_Representations_CVPRW_2020_paper.html)
+- [./baselines/BertranAIOI](https://github.com/aithiest/EIGAN/tree/master/baselines/BertranAIOI): [[paper]](http://proceedings.mlr.press/v97/bertran19a.html)
+- [./baselines/SadeghiARL](https://github.com/aithiest/EIGAN/tree/master/baselines/SadeghiARL) [[paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w1/Sadeghi_Imparting_Fairness_to_Pre-Trained_Biased_Representations_CVPRW_2020_paper.html)
 
 
 ## Training
@@ -49,11 +49,32 @@ Checkpoints of prior works baselines:
 sh scipts/<mimic/mnist/titanic>/<script-name>.sh
 ```
 
-## Source folder executions
+## src folder executions
 ```shell
 cd src
 sh sh/<script-name>.sh <expt-name>
+
+# script names: adv_train.sh | check_train.sh | pretrain.sh
+# expt-name: mnist
 ```
+
+## baseline folder executions
+```
+cd src_sadeghi
+sh sh/<script-name>.sh <expt-name>
+
+# script-name: adult.sh | adult_bertran.sh
+# expt-name: pre | adv | check
+sh sh/adult.sh adv
+sh sh/adult.sh check
+
+sh sh/adult_bertran.sh pre
+sh sh/adult_bertran.sh adv
+sh sh/adult_bertran.sh check
+```
+
+- Bertran comparison notebooks in the folder [./baselines/BertranAIOI](https://github.com/aithiest/EIGAN/tree/master/baselines/BertranAIOI)
+- Specifically, run the notebooks: [Example-Notebook-Subject-vs-Gender-EIGAN.ipynb](https://github.com/aithiest/EIGAN/blob/master/baselines/BertranAIOI/Example-Notebook-Subject-vs-Gender-EIGAN.ipynb) vs [Example-Notebook-Subject-vs-Gender.ipynb](https://github.com/aithiest/EIGAN/blob/master/baselines/BertranAIOI/Example-Notebook-Subject-vs-Gender.ipynb)
 
 ## Comparison
 - comparison scripts need editing of python scripts
